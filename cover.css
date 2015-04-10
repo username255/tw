@@ -28,6 +28,7 @@ html,
 body {
   height: 100%;
   background-color: #fff;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif";
 }
 body {
   color: #fff;
@@ -64,6 +65,13 @@ body {
   padding: 30px;
 }
 
+/* Featurette */
+
+.featurette {
+	color: black;
+	text-shadow: none;
+	}
+}
 
 /*
  * Header
