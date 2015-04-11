@@ -54,6 +54,47 @@ body {
   -webkit-box-shadow: inset 0 0 100px rgba(0,0,0,.5);
           box-shadow: inset 0 0 100px rgba(0,0,0,.5);
 }
+.site-wrapper1 {
+  display: table;
+  width: 100%;
+  height: 100%; /* For at least Firefox */
+  background-image: linear-gradient(0deg, #000, transparent), url("pizza01.jpg");
+  background-repeat: no-repeat;
+  min-height: 100%;
+  -webkit-box-shadow: inset 0 0 100px rgba(0,0,0,.5);
+          box-shadow: inset 0 0 100px rgba(0,0,0,.5);
+}
+.site-wrapper2 {
+  display: table;
+  width: 100%;
+  height: 100%; /* For at least Firefox */
+  background-image: linear-gradient(0deg, #000, transparent), url("pizza02.jpg");
+  background-repeat: no-repeat;
+  min-height: 100%;
+  -webkit-box-shadow: inset 0 0 100px rgba(0,0,0,.5);
+          box-shadow: inset 0 0 100px rgba(0,0,0,.5);
+}
+.site-wrapper3 {
+  display: table;
+  width: 100%;
+  height: 100%; /* For at least Firefox */
+  background-image: linear-gradient(0deg, #000, transparent), url("pizza03.jpg");
+  background-repeat: no-repeat;
+  min-height: 100%;
+  -webkit-box-shadow: inset 0 0 100px rgba(0,0,0,.5);
+          box-shadow: inset 0 0 100px rgba(0,0,0,.5);
+}
+.site-wrapper4 {
+  display: table;
+  width: 100%;
+  height: 100%; /* For at least Firefox */
+  color: #000;
+  background-image: linear-gradient(0deg, #000, transparent), url("cola.jpg");
+  background-repeat: no-repeat;
+  min-height: 100%;
+  -webkit-box-shadow: inset 0 0 100px rgba(0,0,0,.5);
+          box-shadow: inset 0 0 100px rgba(0,0,0,.5);
+}
 .site-wrapper-inner {
   display: table-cell;
   vertical-align: top;
@@ -111,7 +152,7 @@ footer {
 
 #first {display: none;}
 
-p {line-height: 1.5789; color: #333; letter-spacing: .05em;}
+p {line-height: 1.5789; color: #fff; letter-spacing: .05em;}
 
 #cover_p {color: #fff;}
 
