@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Selectors</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href='http://fonts.googleapis.com/css?family=Nunito:400,300' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div id="container">
+		<form class="form-contact br">
+	  	<h1>Checkout</h1>
+
+		  <label for="name">Name:</label> 
+		  <input type="text" id="name">
+		  
+		  <label for="surname">Surname:</label> 
+		  <input type="text" id="surname">
+		  
+		  <label for="card">Card Number:</label> 
+		  <input type="number" id="card">
+		  
+		  <label for="date">Exp. Date:</label> 
+		  <input type="month" id="date">
+		  
+		  <label for="cvc">CVC:</label> 
+		  <input type="password" id="cvc">
+
+     	<label for="email">Email:</label>
+     	<input type="email" id="email" placeholder="email@website.com">
+  		<!--
+			<label>Interests:</label>
+			<input type="checkbox" id="development" name="user_interest"><label for="development">Development</label><br>
+			<input type="checkbox" id="design" name="user_interest"><label for="design">Design</label><br>
+			<input type="checkbox" id="business" name="user_interest"><label for="business">Business</label><br>
+		-->	
+     	<label for="msg">Delivery Address:</label>			
+ 			<textarea id="msg" rows="4"></textarea>
+			
+			<label for="tel">Contact Number:</label> 
+		  <input type="tel" id="tel">
+			
+		  <input class="btn default" type="submit" value="Proceed">
+		</form>
+	</div>
+</body>
+</html>
