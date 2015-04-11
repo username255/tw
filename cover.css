@@ -6,7 +6,7 @@
 a,
 a:focus,
 a:hover {
-  color: #fff;
+  color: #000;
 }
 
 /* Custom default button */
@@ -31,7 +31,7 @@ body {
   font-family: "Helvetica Neue",Helvetica,Arial,sans-serif";
 }
 body {
-  color: #fff;
+  color: #000;
   text-align: center;
   text-shadow: 0 1px 3px rgba(0,0,0,.5);
 }
@@ -41,7 +41,7 @@ body {
   display: table;
   width: 100%;
   height: 100%; /* For at least Firefox */
-  background-image: url("pizza.jpg");
+  background-image: linear-gradient(0deg, #000, transparent), url("pizza.jpg");
   background-repeat: no-repeat;
   min-height: 100%;
   -webkit-box-shadow: inset 0 0 100px rgba(0,0,0,.5);
@@ -56,7 +56,7 @@ body {
   margin-left: auto;
 }
 
-. marketing {
+.marketing {
 	margin-top: 1%;
 }
 
@@ -65,13 +65,48 @@ body {
   padding: 30px;
 }
 
-/* Featurette */
+/*	=================================================
+	Featurette
+*/
 
 .featurette {
 	color: black;
 	text-shadow: none;
-	}
 }
+
+.masthead {
+	z-index: 42;
+	color: #fff;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+	padding-bottom: 30px;
+}
+
+.pad {
+	margin-top: 85%;
+}
+
+.under_nav {
+	background: linear-gradient(#000, transparent 90%) no-repeat center;
+	height: 20%;
+	width: 100%;
+	position: fixed;
+	top: 0;
+	z-index: 41;
+}
+
+footer {
+	text-shadow: none;
+	color: #191919;
+}
+
+#first {display: none;}
+
+p {line-height: 1.5789; color: #333; letter-spacing: .05em;}
+
+#cover_p {color: #fff;}
+
+/*	=================================================================================	*/
 
 /*
  * Header
@@ -125,6 +160,7 @@ body {
 
 .cover {
   padding: 0 20px;
+  color: #fff;
 }
 .cover .btn-lg {
   padding: 10px 20px;
