@@ -9,6 +9,13 @@ a:hover {
   color: #000;
 }
 
+a {
+  transition-property: all;
+  transition-duration: 0.3s;
+  transition-timing-function: initial;
+  transition-delay: initial;
+}
+
 /* Custom default button */
 .btn-default,
 .btn-default:hover,
