@@ -148,6 +148,14 @@ body {
 	content:url("add.svg");
 }
 
+.plus_btn img:hover {
+	-ms-transform: rotate(1440deg); /* IE 9 */
+    -webkit-transform: rotate(1440deg); /* Chrome, Safari, Opera */
+    transform: rotate(1440deg);
+	-webkit-transition-duration: 3s; /* Safari */
+    transition-duration: 3s;
+}
+
 .under_nav {
 	background: rgba(0,0,0,0.6);
 	/*background: linear-gradient(#000, transparent 90%) no-repeat center;*/
